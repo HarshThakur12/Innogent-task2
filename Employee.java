@@ -31,7 +31,6 @@ class EmployeeManagement
     List<Employee> employeeList = new ArrayList<Employee>();
 
     public EmployeeManagement() {
-        // Initialize the employeeList with data here
          
 employeeList.add(new Employee(111, "Jiya Brein", 32, "Female", "HR", 2011, 25000.0));
 employeeList.add(new Employee(122, "Paul Niksui", 25, "Male", "Sales And Marketing", 2015, 13500.0));
@@ -205,14 +204,14 @@ employeeList.add(new Employee(277, "Anuj Chettiar", 31, "Male", "Product Develop
         manager.averageAgeByGender();
         manager.highestPaidEmployee();
         manager.employeesJoinedAfter2015();
-		manager.countEmployeesInEachDepartment();
+	manager.countEmployeesInEachDepartment();
         manager.averageSalaryByDepartment();
         manager.youngestMaleInProductDevelopment();
         manager.countMaleAndFemaleInSalesAndMarketing();
-		manager.averageSalaryByGender();
+	manager.averageSalaryByGender();
         manager.listEmployeesByDepartment();
         manager.organizationSalaryStatistics();
         manager.separateEmployeesByAge();
-		manager.findOldestEmployee();
+	manager.findOldestEmployee();
     }
 }
