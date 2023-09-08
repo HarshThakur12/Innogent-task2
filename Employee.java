@@ -1,7 +1,8 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
-class Employee {
+class Employee
+{
     int id;
     String name;
     int age;
@@ -11,7 +12,8 @@ class Employee {
     double salary;
 
 
-	Employee(int  id,String name,int age,String gender,String department,int yearofjoining,double salary){
+	Employee(int  id,String name,int age,String gender,String department,int yearofjoining,double salary)
+	{
 		this.id=id;
 		this.name=name;
 		this.age=age;
@@ -21,7 +23,7 @@ class Employee {
 		this.salary=salary;
 	}
 	
-	}
+}
 
 class EmployeeManagement 
 {
