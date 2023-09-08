@@ -10,6 +10,7 @@ class Employee {
     int yearOfJoining;
     double salary;
 
+
 	Employee(int  id,String name,int age,String gender,String department,int yearofjoining,double salary){
 		this.id=id;
 		this.name=name;
@@ -20,29 +21,7 @@ class Employee {
 		this.salary=salary;
 	}
 	
-	public String toString(){
-		return "id="+id+ " Age="+age+ " Name: "+name+ " Gender="+gender;
 	}
-	
-	int getAge(){
-		return age;
-	}
-	String getName(){
-		return name;
-	}
-	String getdepartment(){
-		return department;
-	}
-	double getSalary(){
-		return salary;
-	}
-	int getJoindate(){
-		return yearOfJoining;
-	}
-	public String getgender(){
-		return gender;
-	}
-}
 
 class EmployeeManagement 
 {
