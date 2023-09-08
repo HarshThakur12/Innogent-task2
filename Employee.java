@@ -10,7 +10,6 @@ class Employee {
     int yearOfJoining;
     double salary;
 
-    // Constructor, getters, setters, etc.
 	Employee(int  id,String name,int age,String gender,String department,int yearofjoining,double salary){
 		this.id=id;
 		this.name=name;
